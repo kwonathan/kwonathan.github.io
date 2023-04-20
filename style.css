@@ -15,6 +15,7 @@ h1 {
 
 .container {
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .main {
@@ -80,4 +81,21 @@ a:hover, .fa-brands:hover {
      50% { transform: rotate(10.0deg) }
      60% { transform: rotate( 0.0deg) }
     100% { transform: rotate( 0.0deg) }
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #333333;
+}
+
+.subheading {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.subheading-text {
+    padding-right: 10px;
 }
